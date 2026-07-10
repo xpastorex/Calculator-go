@@ -46,4 +46,21 @@ docker compose up --build
     cd frontend </br>
     npm install </br>
     npm run dev </br>
-  
+
+---
+
+## 📡 Ejemplos de Uso de la API (REST)
+
+El backend expone un endpoint principal para procesar todas las operaciones aritméticas.
+
+### 1. Operación Estándar (Ejemplo: Suma)
+* **Endpoint:** `POST http://localhost:8080/api/calculate`
+* **Headers:** `Content-Type: application/json`
+
+**Cuerpo de la Petición (Request JSON):**
+```json
+{
+  "operator": "+",
+  "num1": 15.5,
+  "num2": 5
+}
