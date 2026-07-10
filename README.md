@@ -18,14 +18,15 @@ Para clonar, compilar y ejecutar este proyecto localmente, necesitas tener insta
 ## 🛠️ Tecnologías Utilizadas
 
 ### Backend Core
-* <h1>Go (Golang):</h1> Elegido por su alto rendimiento, tipado fuerte y simplicidad idiomática.
-* <h1>Testing (Nativo):</h1> Implementación de *Table-Driven Tests* para asegurar una cobertura del 100% en la lógica de cálculo.
+* **Go (Golang):** Elegido por su alto rendimiento, tipado fuerte y simplicidad idiomática.
+* **Net/HTTP (Nativo):** Enrutamiento y manejo de peticiones HTTP sin dependencias externas pesadas.
+* **Testing (Nativo):** Implementación de *Table-Driven Tests* para asegurar una cobertura del 100% en la lógica de cálculo.
 
 ### Frontend UI
-* <h1>React 19 & TypeScript:</h1> Estructura de componentes basada en interfaces fuertemente tipadas.
-* <h1>Vite:</h1> Herramienta de andamiaje de última generación para un desarrollo ultra veloz.
-* <h1>Tailwind CSS v4:</h1> Framework de utilidades CSS para un diseño *Mobile-First* y minimalista.
-* <h1>Axios:</h1> Cliente HTTP para la comunicación limpia y manejo de errores con la API.
+* **React 19 & TypeScript:** Estructura de componentes basada en interfaces fuertemente tipadas.
+* **Vite:** Herramienta de andamiaje de última generación para un desarrollo ultra veloz.
+* **Tailwind CSS v4:** Framework de utilidades CSS para un diseño *Mobile-First* y minimalista.
+* **Axios:** Cliente HTTP para la comunicación limpia y manejo de errores con la API.
 
 ---
 
@@ -36,12 +37,12 @@ Gracias a la contenedorización, puedes levantar toda la infraestructura (Fronte
 docker compose up --build
 
 ### Opción 2: Ejecutando el proyecto en directamente
-* <h1>Backend:</h1>
+* **BackEnd:**
     cd backend
     go test -v ./...      # Ejecuta las pruebas unitarias
     go run main.go       # Inicia el servidor en el puerto 8080
     
-* <h1>Frontend:</h1>
+* **FrontEnd:**
     cd frontend
     npm install          # Instala las dependencias
     npm run dev          # Inicia el entorno de desarrollo
