@@ -37,13 +37,13 @@ Gracias a la contenedorización, puedes levantar toda la infraestructura (Fronte
 docker compose up --build
 
 ### Opción 2: Ejecutando el proyecto en directamente
-* **BackEnd:**
-    cd backend
-    go test -v ./...      # Ejecuta las pruebas unitarias
-    go run main.go       # Inicia el servidor en el puerto 8080
+* **BackEnd:** </br>
+    cd backend </br>
+    go test -v ./...      # Ejecuta las pruebas unitarias </br>
+    go run main.go       # Inicia el servidor en el puerto 8080 </br>
     
 * **FrontEnd:**
-    cd frontend
-    npm install          # Instala las dependencias
-    npm run dev          # Inicia el entorno de desarrollo
+    cd frontend </br>
+    npm install          # Instala las dependencias </br>
+    npm run dev          # Inicia el entorno de desarrollo </br>
   
