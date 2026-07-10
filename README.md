@@ -39,11 +39,11 @@ docker compose up --build
 ### Opción 2: Ejecutando el proyecto en directamente
 * **BackEnd:** </br>
     cd backend </br>
-    go test -v ./...      # Ejecuta las pruebas unitarias </br>
-    go run main.go       # Inicia el servidor en el puerto 8080 </br>
+    go test -v ./... </br>
+    go run main.go </br>
     
-* **FrontEnd:**
+* **FrontEnd:** </br>
     cd frontend </br>
-    npm install          # Instala las dependencias </br>
-    npm run dev          # Inicia el entorno de desarrollo </br>
+    npm install </br>
+    npm run dev </br>
   
