@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8080:8080"
+    networks:
+      - calculator-network
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - VITE_API_URL=http://localhost:8080/api/calculate
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - calculator-network
+
+networks:
+  calculator-network:
+    driver: bridge
