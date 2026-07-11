@@ -47,6 +47,11 @@ docker compose up --build
     npm install </br>
     npm run dev </br>
 
+## 🐚 Variables de Entorno
+
+Es importante crear una variable de entorno en la raiz "/frontend" para poder realizar la conexion a la API REST. para esto crearemos el archivo [/frontend/.env] e ingresaremos la siguiente variable:
+* VITE_API_URL=http://localhost:8080/api/calculate **
+
 ---
 
 ## 📡 Ejemplos de Uso de la API (REST)
